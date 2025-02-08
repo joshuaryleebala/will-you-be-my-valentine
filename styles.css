@@ -1,0 +1,47 @@
+body, html {
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #ECE5E4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #ffcccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+button {
+    padding:10px 20px;
+    margin: 5px;
+    bottom: none;
+    cursor: pointer;
+    transition: transform 0.2;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#yesButton {
+    background-color: #66bb6a;
+    color: white;
+    font-weight: bold;
+}
+
+#noButton {
+    background-color: #ef5350;
+    color: white;
+    font-weight: bold;
+}
